@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secret key file (replace "secrets.py" with the name of your secret key file)
+secrets.py
+
+# Virtual environment
+venv/
+env/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Database
+db.sqlite3
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Local settings (replace "local_settings.py" with the name of your local settings file)
+local_settings.py
+
+# Temporary files
+*.log
+*.swp
+*.swo
+*.bak
+*.pyc
+
+# Ignore migration files if you don't want to include them in version control
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Ignore Docker related files
+.dockerignore
+docker-compose.yml
+Dockerfile
+
+# Ignore any other sensitive information
+*.key
+*.pem
+*.cer
+*.pfx
+*.csr
+*.crt
+# Virtual environment
+venv/
+
+# Compiled Python files
+*.pyc
+
+# Temporary files
+*.log
+
+# Database files
+db.sqlite3
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Secret keys
+.env
+
+# IDE files
+.idea/
+.vscode/
